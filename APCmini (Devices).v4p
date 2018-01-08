@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
-   <PATCH nodename="C:\Users\Lutz\Projects\v4_subpatches\APCmini (Lutz).v4p" systemname="APCmini (Lutz)" filename="C:\Users\Lutz\Projects\v4_subpatches\APCmini (Lutz).v4p" scrollx="0" scrolly="0">
+   <PATCH nodename="C:\Users\Lutz\Projects\v4_subpatches\APCmini (Devices) lutz.v4p" systemname="APCmini (Lutz)" filename="C:\Users\Lutz\Projects\v4_subpatches\APCmini (Lutz).v4p" scrollx="0" scrolly="0">
    <BOUNDS type="Window" left="1944" top="1160" width="10648" height="10792">
    </BOUNDS>
    <NODE systemname="MidiShort (Devices)" nodename="MidiShort (Devices)" componentmode="Hidden" id="0">
@@ -504,4 +504,18 @@
    </LINK>
    <LINK srcnodeid="94" srcpinname="Up Edge" dstnodeid="68" dstpinname="Y Input Value">
    </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="95">
+   <BOUNDS type="Node" left="0" top="0" width="392" height="216">
+   </BOUNDS>
+   <BOUNDS type="Box" left="0" top="0" width="392" height="216">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="APC">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
    </PATCH>
